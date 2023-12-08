@@ -1,0 +1,352 @@
+.navbar ul li {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.navbar ul li a {
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    line-height: 3rem;
+}
+
+.navbar ul li a:hover {
+
+    cursor: pointer;
+    color: rgb(25, 211, 211);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+
+/*Home*/
+
+.info {
+    padding-top: 10%;
+    background-color: rgb(29, 28, 28);
+    background-size: cover;
+}
+
+.info h1 {
+    font-size: 40px;
+    color: rgb(248, 244, 244);
+}
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+
+.info span {
+    color: rgb(0, 217, 255);
+}
+
+.boy {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.small-device {
+    height: 100%;
+    width: 100%;
+}
+
+.top-name {
+    padding-top: 20%;
+    color: white;
+    opacity: .8;
+}
+
+.btn-color {
+    padding: 10px 25px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 7px;
+    color: rgb(250, 248, 248);
+    transition: .20s ease;
+    font-size: 15px;
+    width: 150px;
+    align-items: center;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    transition: .4s ease;
+}
+
+.btn-color:hover {
+    cursor: pointer;
+    width: 150px;
+    background-color: white;
+    color: rgb(10, 10, 10);
+    box-shadow: 0 0 5px white, 0 0 10px rgb(15, 234, 250), 0 0 15px rgba(10, 10, 10, 0.151);
+    font-weight: bold;
+}
+
+.design {
+    color: rgb(0, 238, 255);
+    font-weight: bold;
+}
+
+.web {
+    color: white;
+    font-weight: bold;
+}
+
+.full {
+    color: rgb(0, 217, 255);
+}
+
+.abtme {
+    color: rgb(0, 238, 255);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.abthead {
+    font-weight: bold;
+    font-size: 27px;
+    color: white;
+}
+
+.bg-about {
+    background-color: rgb(43, 42, 42);
+    background-size: cover;
+}
+
+.abtpara {
+    color: white;
+    font-size: 19px;
+}
+
+.stack {
+    color: rgb(0, 238, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fullstack {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.img-cap {
+    height: 80%;
+    width: 70%;
+}
+
+.name {
+    color: rgb(0, 204, 255);
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.nameigna {
+    color: white;
+    font-size: 16px;
+
+}
+
+.namespace {
+    margin-left: 400px;
+}
+
+.projectcolor {
+    color: rgb(0, 238, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.project {
+    background-color: rgb(29, 28, 28);
+    background-size: cover;
+
+}
+
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+.imagepro {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.imagepro img {
+    width: 40%;
+    height: 40%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.imagepro:hover img {
+    transform: scale(1.1);
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #00a6ff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    align-items: center;
+}
+
+
+
+.content:hover {
+    opacity: 1;
+}
+
+.content h5 {
+    font-size: 21px;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.content>* {
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+
+.content:hover>* {
+    transform: translateY(0px);
+}
+
+.prohead {
+    color: white;
+    margin-top: 3%;
+}
+
+.propara {
+    color: white;
+}
+
+.bg-certificate {
+    background-color: rgb(43, 42, 42);
+    background-size: cover;
+}
+
+/*Certificates*/
+
+
+
+.image-cert {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
+.certificate-row {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+}
+
+.certificate-row .certificate-item {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 20%);
+}
+
+.certificate-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+
+.certificate-item:hover img {
+    background-color: rgb(0, 183, 255);
+    color: white;
+    transform: rotate(360deg);
+    height: 100%;
+    width: 100%;
+    transform: scale(1.1);
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+.contactus-container {
+    background-color: rgb(29, 28, 28);
+    background-size: cover;
+    top: 0;
+}
+
+.contact-center {
+    align-items: center;
+}
+
+.icon-email {
+    margin-right: 20px;
+}
+
+.email-font {
+    color: rgb(0, 238, 255);
+    font-size: 22px;
+}
+
+.mail-id-font {
+    color: rgb(250, 249, 249);
+    font-size: 20px;
+}
+
+.icon-email {
+    border-color: rgb(0, 238, 255);
+    border-radius: 100px;
+    height: 10%;
+    border-width: 2px;
+
+}
+
+.copyright {
+    align-items: center;
+}
+
+.copyright-center {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
